@@ -1,16 +1,9 @@
 'use client'
 
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Checkbox } from "@/components/ui/checkbox"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
 import { Briefcase, Code, Globe } from 'lucide-react'
-import Link from "next/link"
 import { NavBar } from "@/components/nav-bar"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { useForm, Resolver } from "react-hook-form"
-import { useUserLoginMutation } from "@/redux/api/authApi"
 import LoginForm from "@/components/login"
 import { RegisterForm } from "@/components/register"
 
