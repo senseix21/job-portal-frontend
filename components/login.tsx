@@ -7,8 +7,6 @@ import { Label } from "@/components/ui/label"
 import Link from "next/link"
 import { useForm } from "react-hook-form"
 import { useUserLoginMutation } from "@/redux/api/authApi"
-import React, { useEffect, useState } from 'react';
-import Cookies from 'js-cookie'
 import { toast } from "@/hooks/use-toast"
 import { ToastAction } from "./ui/toast"
 import { LoginResponse } from "@/interfaces"
