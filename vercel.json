@@ -1,0 +1,18 @@
+{
+    "build": {
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "commands": [
+        "npm install --legacy-peer-deps",
+        "next build"
+      ]
+    },
+    "routes": [
+      {
+        "src": "/[^.]+",
+        "dest": "/"
+      }
+    ]
+  }
+  
