@@ -1,14 +1,9 @@
 {
-    "build": {
-      "env": {
-        "NODE_ENV": "production"
-      },
-      "commands": [
-        "npm install --legacy-peer-deps",
-        "next build"
-      ]
-    },
     "routes": [
+      {
+        "src": "/jobs/([a-zA-Z0-9-]+)",
+        "dest": "/jobs/[id]"
+      },
       {
         "src": "/[^.]+",
         "dest": "/"
